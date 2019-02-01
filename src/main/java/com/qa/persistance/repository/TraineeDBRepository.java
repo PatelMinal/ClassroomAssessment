@@ -28,7 +28,7 @@ public class TraineeDBRepository implements TraineeRepository {
 
 	@Transactional(REQUIRED)
 	public String getAlltrainees() {
-		Query query = manager.createQuery("SELECT from Trainees a", Trainee.class);
+		Query query = manager.createQuery("SELECT a from Trainees a", Trainee.class);
 		Collection<Trainee> trainees = (Collection<Trainee>) query.getResultList();
 		return util.getJSONForObject(query);
 	}
