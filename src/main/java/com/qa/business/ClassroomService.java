@@ -9,6 +9,8 @@ public interface ClassroomService {
 	
 
 	String deleteTrainer(Long classroomid);
-	}
+	//String UpdateTrainer(Long classroomid, String trainer);
+	
+}
 
 
