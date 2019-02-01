@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.qa.ClassroomManagement</groupId>
-  <artifactId>ClassroomManagement1</artifactId>
+  <artifactId>classroom</artifactId>
   <version>0.0.1-SNAPSHOT</version>
  <packaging>war</packaging>
 
